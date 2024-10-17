@@ -1,0 +1,52 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[]args) {
+        
+        
+        //Enteras
+        int entera;
+        System.out.println("El rango  de un entero e -2,147,483,648 a 2. 147, 483,648");
+        Integer entero;
+        
+        short enteroMuyPequeno;
+        System.out.println("El rango de un entero muy pequeno es -32768 a 32767");
+        
+        byte enteroPequeno;
+        System.out.println("El rango de un entero pequeno es -128 a 127");
+        
+        long enteroGrande;
+        Long enteroGrandeObject;
+        System.out.println("El rango de un long es  e -9223372036854775808 a 9223372036854775807");
+        
+        //Decimal
+        float ndecimal;
+        float decimalObject;
+        System.out.println("El rango de un  decimal  es -3.402823e38 a 3.402823e38");
+        
+        double decimal2;
+        Double decimal2Object;
+         System.out.println("El rango de un decimal es -1.79769313486232e308 a 1.79769313486232e308");
+         
+         //Boolean 
+         boolean boll;
+        System.out.println("El rango de un booleano es -1.79769313486232e308 a 1.79769313486232e308");
+          Boolean booleanObject;
+         
+         
+         //cadena de caracteres
+         String cadena;
+          System.out.println("El rango de un string es -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807");
+          
+          //caracter 
+          char caracter;
+          Character 
+               caracterObject;
+                System.out.println("El rango de un caraceter es 0 a 65.535 en valor decimal");
+            //object
+            Object objeto;
+            System.out.println("El objeto puede almacenar de cualquier tipo de dato, dependiendo a la que se adapta el objeto en si ");
+            
+    }
+}
